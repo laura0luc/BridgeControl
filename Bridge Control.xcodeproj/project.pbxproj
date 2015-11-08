@@ -15,6 +15,8 @@
 		8D5773EB1BCC7E8000EB01DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5773E91BCC7E8000EB01DA /* LaunchScreen.storyboard */; };
 		8D5773F61BCC7E8000EB01DA /* Bridge_ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5773F51BCC7E8000EB01DA /* Bridge_ControlTests.swift */; };
 		8D5774011BCC7E8000EB01DA /* Bridge_ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5774001BCC7E8000EB01DA /* Bridge_ControlUITests.swift */; };
+		8D57740F1BCC85D500EB01DA /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D57740E1BCC85D500EB01DA /* Settings.bundle */; settings = {ASSET_TAGS = (); }; };
+		8D5774111BCC9F1E00EB01DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5774101BCC9F1E00EB01DA /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8D5773FC1BCC7E8000EB01DA /* Bridge ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bridge ControlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5774001BCC7E8000EB01DA /* Bridge_ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge_ControlUITests.swift; sourceTree = "<group>"; };
 		8D5774021BCC7E8100EB01DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D57740E1BCC85D500EB01DA /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8D5774101BCC9F1E00EB01DA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				8D5773E71BCC7E8000EB01DA /* Assets.xcassets */,
 				8D5773E91BCC7E8000EB01DA /* LaunchScreen.storyboard */,
 				8D5773EC1BCC7E8000EB01DA /* Info.plist */,
+				8D57740E1BCC85D500EB01DA /* Settings.bundle */,
+				8D5774101BCC9F1E00EB01DA /* Constants.swift */,
 			);
 			path = "Bridge Control";
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D57740F1BCC85D500EB01DA /* Settings.bundle in Resources */,
 				8D5773EB1BCC7E8000EB01DA /* LaunchScreen.storyboard in Resources */,
 				8D5773E81BCC7E8000EB01DA /* Assets.xcassets in Resources */,
 				8D5773E61BCC7E8000EB01DA /* Main.storyboard in Resources */,
@@ -261,6 +268,7 @@
 				8D5773E31BCC7E8000EB01DA /* SecondViewController.swift in Sources */,
 				8D5773DF1BCC7E8000EB01DA /* AppDelegate.swift in Sources */,
 				8D5773E11BCC7E8000EB01DA /* FirstViewController.swift in Sources */,
+				8D5774111BCC9F1E00EB01DA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
